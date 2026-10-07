@@ -13,7 +13,7 @@
 local component = require("component")
 local filesystem = require("filesystem")
 
-local REPO = "EugenPrinz/ocui"
+local REPO = "makskornakov/ocui" -- test build only: download from the fork
 local ref = (...) or "main"
 local BASE = "https://raw.githubusercontent.com/" .. REPO .. "/" .. ref .. "/"
 
